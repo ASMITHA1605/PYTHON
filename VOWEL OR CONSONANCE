@@ -1,0 +1,8 @@
+n=(input())
+vowel="aeiouAEIOU"
+if n  in vowel:
+    print("vowel")
+elif (n>='A'and n<='Z') or (n>='a' and n<='z'):
+    print("consonance")
+else:
+    print("invalid")
